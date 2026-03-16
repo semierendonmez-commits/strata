@@ -1,1 +1,35 @@
-# strata
+-- strata
+-- v1.0.0 @semi
+--
+-- digital geology instrument
+--
+-- sound becomes sediment
+-- sediment decays over time
+-- ghosts rise from the deep
+--
+-- CONTROLS:
+-- K1: norns menu
+-- K2+E1 or K1+E1: page change
+-- K2 short: play/stop world time
+-- K3: context action (quake/crystal/dig)
+--
+-- PAGES:
+-- SECTION: cross-section view of all layers
+-- SEISMIC: pressure gauge + seismograph
+-- MATTER: selected layer properties
+-- ARCHAEO: dig, restore, extract fossils
+--
+-- GRID (8x8):
+-- rows 1-4: world map (press to hear layer)
+-- row 5: quake(1-2) crystal(3-4)
+-- row 6: time scale (x0.1..x8) stop rev
+-- row 7: ghost triggers (8 fossil slots)
+-- row 8: mix levels
+--
+-- CONCEPT:
+-- audio input feeds the world as raw material
+-- new sounds push older ones deeper
+-- layers decay: bit crush, freq loss, noise
+-- pressure builds, earthquakes surface fossils
+-- ghosts return from the deep, changed forever
+-- restoration is possible but never perfect
