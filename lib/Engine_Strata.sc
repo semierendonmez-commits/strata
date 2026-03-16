@@ -88,7 +88,7 @@ Engine_Strata : CroneEngine {
       sig = PitchShift.ar(sig, 0.1,
         LFNoise1.kr(3).range(0.5, 2.0), 0.02, 0.08);
       sig = LPF.ar(sig, 3000 * intensity + 500);
-      sig = Pan2.ar(sig.sum, LFNoise1.kr(2));
+      sig = Pan2.ar(sig, LFNoise1.kr(2));
       sig = sig * env * intensity * 0.4;
       Out.ar(out_bus, sig);
     }).add;
